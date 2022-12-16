@@ -1,3 +1,3 @@
-# ladspa_sc4_mod
+# sc3d LADSPA plugin
 
-Refer to https://codeberg.org/sameerw/ladspa_sc4_mod/
+Refer to https://codeberg.org/sameerw/sc3d/
