@@ -1,0 +1,10 @@
+--- ladspa-master/po/POTFILES.in	2022-07-21 14:51:13.000000000 +0530
++++ /home/sammer/ladspa-master/po/POTFILES.in	2022-12-16 10:38:13.164034401 +0530
+@@ -60,6 +60,7 @@
+ bode_shifter_1431.c
+ bode_shifter_cv_1432.c
+ am_pitchshift_1433.c
++sc3d_2567.c
+ sc4_1882.c
+ lcr_delay_1436.c
+ giant_flange_1437.c

@@ -1,0 +1,19 @@
+--- ladspa-master/Makefile.am	2022-07-21 14:51:13.000000000 +0530
++++ /home/sammer/ladspa-master/Makefile.am	2022-12-16 10:37:46.980033834 +0530
+@@ -22,7 +22,7 @@
+ 	matrix_spatialiser_1422.la plate_1423.la gong_1424.la \
+ 	sc1_1425.la sc2_1426.la sc3_1427.la zm1_1428.la inv_1429.la \
+ 	chebstortion_1430.la bode_shifter_1431.la bode_shifter_cv_1432.la \
+-	am_pitchshift_1433.la sc4_1882.la \
++	am_pitchshift_1433.la sc3d_2567.la sc4_1882.la \
+ 	lcr_delay_1436.la giant_flange_1437.la dj_flanger_1438.la \
+ 	gong_beater_1439.la hilbert_1440.la sin_cos_1881.la se4_1883.la \
+ 	bandpass_a_iir_1893.la bandpass_iir_1892.la highpass_iir_1890.la \
+@@ -70,6 +70,7 @@
+ sc1_1425_la_LIBADD = -Lutil -ldb -lrms
+ sc2_1426_la_LIBADD = -Lutil -ldb -lrms
+ sc3_1427_la_LIBADD = -Lutil -ldb -lrms
++sc3d_2567_la_LIBADD = -Lutil -ldb -lrms
+ sc4_1882_la_LIBADD = -Lutil -ldb -lrms
+ sc4m_1916_la_LIBADD = -Lutil -ldb -lrms
+ se4_1883_la_LIBADD = -Lutil -ldb -lrms
