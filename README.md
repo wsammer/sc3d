@@ -34,7 +34,7 @@ load-module module-ladspa-sink sink_name=ladspa_output.sc3d label=sc3d plugin=sc
 set-default-sink ladspa_output.sc3d
 </code>
 
-Restart pulseaudio and, if all things are OK, the stereo output will have a 'depth' effect to it on any music / sounds that are played.
+Restart pulseaudio and, if all things are OK, the stereo output will have a 'depth' effect to it on any stereo music / sounds that are played.
 
 The Pulseaudio volume control should have 4 "Ladspa Plugin" settings as in screenshot below
 <br>
